@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 100vw;
+    height: 100vh;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0px;
+}
+
+.bars_container{
+    margin-top:5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bar{
+    width: 5px;
+    background-color:white;
+    border: 0.25px solid black;
+    /* margin: 0 2px; */
+}
+
+body{
+    background-color:black;
+}
+
+.buttons_container > button, select{
+    width: 150px;
+    height: 30px;
+    background-color: #677685;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition:  0.2s ease-in-out;
+    margin:8px;
+}
+
+button:hover{
+    background-color: #56697b;
+}
